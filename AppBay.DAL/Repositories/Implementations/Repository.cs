@@ -30,7 +30,7 @@ namespace AppBay.DAL.Repositories.Implementations
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _table.Remove(entity);
         }
 
         public async Task<IQueryable<T>> GetAllAsync()

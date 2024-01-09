@@ -9,8 +9,16 @@ namespace AppBay.Business.ViewModels.AccountVM
 {
     public class RegisterVM
     {
+        [Required]
+        [MinLength(3)]
+        [MaxLength(25)]
         public string Name { get; set; }
+        [Required]
+        [MinLength(3)]
+        [MaxLength(25)]
         public string Surname { get; set; }
+        [Required]
+        [MaxLength(25)]
         public string Username { get; set; }
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }

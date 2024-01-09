@@ -9,65 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppBay.MVC
 build_property.RootNamespace = AppBay.MVC
-build_property.ProjectDir = C:\Users\II novbe\source\repos\AppBay.App\AppBay.MVC\
+build_property.ProjectDir = C:\Users\owner\Desktop\AppBayMVC\AppBay.MVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\II novbe\source\repos\AppBay.App\AppBay.MVC
+build_property.MSBuildProjectDirectory = C:\Users\owner\Desktop\AppBayMVC\AppBay.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/Dashboard/Index.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/Feauture/Create.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/Feauture/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEZlYXV0dXJlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/Feauture/Index.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/Feauture/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEZlYXV0dXJlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/Feauture/Update.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/Feauture/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEZlYXV0dXJlXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/Shared/_Layout.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/_ViewImports.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Areas/Manage/Views/_ViewStart.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Areas/Manage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/Home/Index.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/Home/Privacy.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/Shared/Error.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/_ViewImports.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/_ViewStart.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/AppBay.App/AppBay.MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/owner/Desktop/AppBayMVC/AppBay.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ftozbz2fe4

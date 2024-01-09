@@ -1,5 +1,6 @@
 using AppBay.Business.Services.Implementations;
 using AppBay.Business.Services.Interfaces;
+using AppBay.Core.Entities;
 using AppBay.DAL.Context;
 using AppBay.DAL.Repositories.Implementations;
 using AppBay.DAL.Repositories.Interfaces;
@@ -17,16 +18,17 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-builder.Services.Configure<IdentityOptions>(options =>
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
-
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
     options.Password.RequireLowercase = true;
     options.Lockout.MaxFailedAccessAttempts = 5;
     options.Lockout.AllowedForNewUsers = true;
     options.Password.RequireUppercase = true;
     options.Password.RequiredLength = 6;
-});
+    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._+";
+}).AddEntityFrameworkStores<AppDbContext>()
+.AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
 builder.Services.AddScoped<IFeatureService , FeatureService>();
@@ -46,6 +48,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

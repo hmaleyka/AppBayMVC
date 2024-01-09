@@ -1,4 +1,5 @@
-﻿using AppBay.Business.Services.Interfaces;
+﻿using AppBay.Business.Exceptions.Feature;
+using AppBay.Business.Services.Interfaces;
 using AppBay.Business.ViewModels.FeatureVM;
 using AppBay.Core.Entities;
 using AppBay.DAL.Repositories.Interfaces;
@@ -34,9 +35,15 @@ namespace AppBay.Business.Services.Implementations
             return features;
         }
 
-        public Task<Feature> Delete(CreateFeatureVM feature)
+        public void  Delete(Feature feature)
         {
-            throw new NotImplementedException();
+            if (feature == null) throw new FeatureNullException();
+            _repo.GetById(feature.Id);
+             _repo.Delete(feature);
+
+             _repo.SaveChanges();
+           
+          
         }
 
         public async Task<ICollection<Feature>> GetAllAsync()
@@ -48,12 +55,22 @@ namespace AppBay.Business.Services.Implementations
 
         public Task<Feature> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var feature = _repo.GetById(id);
+            return feature;
         }
 
-        public Task<Feature> Update(UpdateFeatureVM feature)
+        public async Task<Feature> Update(UpdateFeatureVM feature)
         {
-            throw new NotImplementedException();
+            if (feature == null) throw new FeatureNullException();
+            Feature features = await _repo.GetById(feature.Id);
+            //features.Id = feature.Id;
+            features.Title = feature.Title;
+            features.Description = feature.Description;
+            features.Icon = feature.Icon;
+
+             _repo.Update(features);
+            await _repo.SaveChanges();
+            return features;
         }
     }
 }

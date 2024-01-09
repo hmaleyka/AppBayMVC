@@ -15,6 +15,6 @@ namespace AppBay.Business.Services.Interfaces
         Task<Feature> Create(CreateFeatureVM feature);
         Task<Feature> Update(UpdateFeatureVM feature);
 
-        Task<Feature> Delete(CreateFeatureVM feature);
+        void Delete(Feature feature);
     }
 }

@@ -10,7 +10,7 @@ namespace AppBay.Core.Entities
     public class AppUser : IdentityUser
     { 
         public string Name { get; set; }
-        public string Username { get; set; }
+        public string Surname { get; set; }
         public bool IsRemained { get; set; }
     }
 }

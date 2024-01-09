@@ -15,3 +15,20 @@ C:\Users\II novbe\source\repos\AppBay.App\AppBay.Business\obj\Debug\net6.0\AppBa
 C:\Users\II novbe\source\repos\AppBay.App\AppBay.Business\obj\Debug\net6.0\refint\AppBay.Business.dll
 C:\Users\II novbe\source\repos\AppBay.App\AppBay.Business\obj\Debug\net6.0\AppBay.Business.pdb
 C:\Users\II novbe\source\repos\AppBay.App\AppBay.Business\obj\Debug\net6.0\ref\AppBay.Business.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.Business.deps.json
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.Business.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.Business.pdb
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.Core.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.DAL.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.DAL.pdb
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\bin\Debug\net6.0\AppBay.Core.pdb
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.csproj.AssemblyReference.cache
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.AssemblyInfo.cs
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.csproj.CopyComplete
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\refint\AppBay.Business.dll
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\AppBay.Business.pdb
+C:\Users\owner\Desktop\AppBayMVC\AppBay.Business\obj\Debug\net6.0\ref\AppBay.Business.dll

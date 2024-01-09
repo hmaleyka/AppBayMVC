@@ -33,7 +33,7 @@
 			@foreach (var item in Model.features)
 			{
 				<div class="col-sm-4 text-center feature">
-					<i class="fa fa-tablet icon"></i>
+					<i class="@item.Icon"></i>
 					<h3>@item.Title</h3>
 					<p>
 						@item.Description
